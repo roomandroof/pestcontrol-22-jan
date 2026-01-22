@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SafeGuard Pest Control - Professional, science-backed pest control services across the USA. Licensed, insured, and family-safe solutions.">
+    <meta name="keywords" content="pest control, exterminator, ant control, termite control, rodent control, USA pest control">
+    <title>SafeGuard Pest Control - Reliable, Science-Backed Pest Control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    <div class="logo-text">
+                        <span class="logo-title">SafeGuard</span>
+                        <span class="logo-subtitle">Pest Control</span>
+                    </div>
+                </a>
+
+                <nav class="nav-desktop">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="about.html" class="nav-link">About Us</a>
+                    <a href="services.html" class="nav-link">Services</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </nav>
+
+                <div class="header-phone">
+                    <svg class="phone-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    <span>(555) 123-4567</span>
+                </div>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <svg class="menu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="mobile-menu" id="mobileMenu">
+                <nav class="mobile-nav">
+                    <a href="index.html" class="mobile-nav-link">Home</a>
+                    <a href="about.html" class="mobile-nav-link">About Us</a>
+                    <a href="services.html" class="mobile-nav-link">Services</a>
+                    <a href="contact.html" class="mobile-nav-link">Contact</a>
+                    <div class="mobile-phone">
+                        <svg class="phone-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        <span>(555) 123-4567</span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Slider Section -->
+    <section class="hero-slider">
+        <!-- Slide 1 -->
+        <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwZXN0JTIwY29udHJvbCUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3Njg5NDA5OTl8MA&ixlib=rb-4.1.0&q=80&w=1920');">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <div class="hero-text-content">
+                    <h1 class="hero-title">Reliable, Science-Backed Pest Control</h1>
+                    <p class="hero-description">Professional pest control services protecting your home and family with proven, safe methods</p>
+                    <div class="hero-buttons">
+                        <a href="contact.html" class="btn btn-primary">Get Same-Day Service</a>
+                        <a href="contact.html" class="btn btn-secondary">Free Inspection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMGZhbWlseSUyMGhvbWV8ZW58MXx8fHwxNzY4OTc1MDQxfDA&ixlib=rb-4.1.0&q=80&w=1920');">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <div class="hero-text-content">
+                    <h1 class="hero-title">Protecting What Matters Most</h1>
+                    <p class="hero-description">Licensed & insured experts using EPA-approved, family and pet-safe solutions</p>
+                    <div class="hero-buttons">
+                        <a href="contact.html" class="btn btn-primary">Schedule Service</a>
+                        <a href="about.html" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1570129477492-45c003edd2be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBob3VzZSUyMGV4dGVyaW9yfGVufDF8fHx8MTc2ODk0MDk5OXww&ixlib=rb-4.1.0&q=80&w=1920');">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <div class="hero-text-content">
+                    <h1 class="hero-title">Same-Day Service Available</h1>
+                    <p class="hero-description">Fast response times with guaranteed results. Call now for immediate assistance</p>
+                    <div class="hero-buttons">
+                        <a href="tel:5551234567" class="btn btn-primary">Call (555) 123-4567</a>
+                        <a href="services.html" class="btn btn-secondary">View Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider Controls -->
+        <button class="slider-control prev" id="prevSlide">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+        </button>
+        <button class="slider-control next" id="nextSlide">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </button>
+
+        <!-- Slider Dots -->
+        <div class="slider-dots">
+            <button class="dot active" data-slide="0"></button>
+            <button class="dot" data-slide="1"></button>
+            <button class="dot" data-slide="2"></button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section section-white">
+        <div class="container">
+            <h2 class="section-title">Get <span class="text-primary">SAME DAY</span> Service Treating These Pests</h2>
+            <p class="section-subtitle">Our expert technicians are ready to protect your home with safe, effective treatments</p>
+            
+            <div class="services-grid">
+                <!-- Ant Control -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Ant Control</h3>
+                    <p class="service-description">Complete ant colony elimination with targeted treatments that prevent future invasions.</p>
+                    <div class="service-details">
+                        <div class="detail-item">
+                            <strong>Problems:</strong> Contaminated food, structural damage, painful bites
+                        </div>
+                        <div class="detail-item">
+                            <strong>Our Approach:</strong> Identify species, locate colony, apply targeted baits and barriers
+                        </div>
+                    </div>
+                    <div class="service-badge">✓ Family & Pet-Safe Solutions</div>
+                </div>
+
+                <!-- Cockroach Control -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Cockroach Control</h3>
+                    <p class="service-description">Fast-acting solutions for immediate relief with long-term protection against reinfestation.</p>
+                    <div class="service-details">
+                        <div class="detail-item">
+                            <strong>Problems:</strong> Health risks, allergens, food contamination, property damage
+                        </div>
+                        <div class="detail-item">
+                            <strong>Our Approach:</strong> Integrated pest management with gel baits and residual treatments
+                        </div>
+                    </div>
+                    <div class="service-badge">✓ Family & Pet-Safe Solutions</div>
+                </div>
+
+                <!-- Rodent Control -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Rodent Control</h3>
+                    <p class="service-description">Humane removal of mice and rats with comprehensive exclusion methods.</p>
+                    <div class="service-details">
+                        <div class="detail-item">
+                            <strong>Problems:</strong> Disease transmission, property damage, electrical fire hazards
+                        </div>
+                        <div class="detail-item">
+                            <strong>Our Approach:</strong> Trapping, exclusion sealing, and sanitation recommendations
+                        </div>
+                    </div>
+                    <div class="service-badge">✓ Family & Pet-Safe Solutions</div>
+                </div>
+
+                <!-- Spider Control -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Spider Control</h3>
+                    <p class="service-description">Safe indoor and outdoor treatments to eliminate spiders and their webs.</p>
+                    <div class="service-details">
+                        <div class="detail-item">
+                            <strong>Problems:</strong> Venomous bites, unsightly webs, insect prey attraction
+                        </div>
+                        <div class="detail-item">
+                            <strong>Our Approach:</strong> Perimeter treatments, web removal, habitat modification
+                        </div>
+                    </div>
+                    <div class="service-badge">✓ Family & Pet-Safe Solutions</div>
+                </div>
+
+                <!-- Termite Control -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Termite Control</h3>
+                    <p class="service-description">Advanced detection, treatment, and monitoring systems to protect your investment.</p>
+                    <div class="service-details">
+                        <div class="detail-item">
+                            <strong>Problems:</strong> Severe structural damage, costly repairs, decreased property value
+                        </div>
+                        <div class="detail-item">
+                            <strong>Our Approach:</strong> Inspection, liquid barriers, bait stations, annual monitoring
+                        </div>
+                    </div>
+                    <div class="service-badge">✓ Family & Pet-Safe Solutions</div>
+                </div>
+
+                <!-- Mosquito Control -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Mosquito Control</h3>
+                    <p class="service-description">Outdoor treatments that let your family enjoy your yard safely.</p>
+                    <div class="service-details">
+                        <div class="detail-item">
+                            <strong>Problems:</strong> Disease transmission, painful bites, outdoor activity disruption
+                        </div>
+                        <div class="detail-item">
+                            <strong>Our Approach:</strong> Larvicide applications, adult mosquito fogging, breeding site elimination
+                        </div>
+                    </div>
+                    <div class="service-badge">✓ Family & Pet-Safe Solutions</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="section section-gray">
+        <div class="container">
+            <h2 class="section-title">Why Homeowners Trust Us</h2>
+            <p class="section-subtitle">Professional service backed by science and years of experience</p>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Pest Control with Scientific Precision</h3>
+                        <p class="feature-description">We use proven, science-backed methods and EPA-approved products. Every treatment is targeted and documented, ensuring effectiveness while prioritizing safety for your family and pets.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 15l-3-3h6z"></path>
+                        </svg>
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Experts at Evicting Your Tiny Tenants</h3>
+                        <p class="feature-description">Our licensed technicians bring years of experience and ongoing training. We conduct thorough inspections, identify root causes, and provide guaranteed results backed by our satisfaction promise.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trust-signals">
+                <div class="trust-card">
+                    <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    <h4>Licensed & Insured</h4>
+                    <p>Fully licensed professionals with comprehensive liability coverage</p>
+                </div>
+
+                <div class="trust-card">
+                    <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    <h4>EPA-Approved Products</h4>
+                    <p>Only environmentally responsible and approved treatments</p>
+                </div>
+
+                <div class="trust-card">
+                    <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                    </svg>
+                    <h4>Family & Pet-Safe</h4>
+                    <p>Safe solutions that protect what matters most</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section section-white">
+        <div class="container">
+            <h2 class="section-title">People Like Us. Pests Don't.</h2>
+            <p class="section-subtitle">See what our satisfied customers have to say</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"SafeGuard eliminated our ant problem within 24 hours. Professional, courteous, and incredibly effective. Haven't seen a single ant in three months!"</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">Sarah Johnson</p>
+                        <p class="author-location">Austin, TX</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Finally found a pest control company we can trust. Same-day service, fair pricing, and they actually explain what they're doing. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">Michael Rodriguez</p>
+                        <p class="author-location">Phoenix, AZ</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"The termite inspection was thorough and the treatment plan gave us peace of mind. The technician was knowledgeable and patient with all our questions."</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">Emily Chen</p>
+                        <p class="author-location">Seattle, WA</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Outstanding mosquito control service. We can finally enjoy our backyard again! The team is reliable and the results speak for themselves."</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">David Thompson</p>
+                        <p class="author-location">Miami, FL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="section section-gray">
+        <div class="container">
+            <h2 class="section-title">Latest Pest Control Tips & Insights</h2>
+            <p class="section-subtitle">Expert advice to keep your home pest-free</p>
+            
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1584622781196-148ae9739797?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="Spring pest prevention">
+                        <span class="blog-category">Prevention Tips</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">January 15, 2026</span>
+                            <span class="blog-read-time">5 min read</span>
+                        </div>
+                        <h3 class="blog-title">10 Essential Spring Pest Prevention Tips for Homeowners</h3>
+                        <p class="blog-excerpt">As temperatures rise, pests become more active. Learn the top 10 strategies to protect your home this spring, from sealing entry points to eliminating standing water that attracts mosquitoes.</p>
+                        <div class="blog-footer">
+                            <div class="blog-author">
+                                <svg class="author-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                                <span>Dr. James Mitchell</span>
+                            </div>
+                            <a href="#" class="blog-read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1628624747186-a941c476b7ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="Termite signs">
+                        <span class="blog-category">Pest Identification</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">January 10, 2026</span>
+                            <span class="blog-read-time">7 min read</span>
+                        </div>
+                        <h3 class="blog-title">Early Warning Signs of Termite Damage Every Homeowner Should Know</h3>
+                        <p class="blog-excerpt">Termites cause billions in property damage annually. Discover how to spot the early signs of termite activity, including mud tubes, hollow-sounding wood, and discarded wings near windows.</p>
+                        <div class="blog-footer">
+                            <div class="blog-author">
+                                <svg class="author-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                                <span>Sarah Anderson</span>
+                            </div>
+                            <a href="#" class="blog-read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1564024719734-47888c2f1e2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="Pet-safe pest control">
+                        <span class="blog-category">Safety Guide</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">January 5, 2026</span>
+                            <span class="blog-read-time">6 min read</span>
+                        </div>
+                        <h3 class="blog-title">Pet-Safe Pest Control: What Every Pet Owner Needs to Know</h3>
+                        <p class="blog-excerpt">Keeping your pets safe while eliminating pests is crucial. Learn about EPA-approved, pet-friendly pest control methods and how to prepare your home for treatments when you have furry family members.</p>
+                        <div class="blog-footer">
+                            <div class="blog-author">
+                                <svg class="author-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                                <span>Michael Torres</span>
+                            </div>
+                            <a href="#" class="blog-read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="text-center" style="margin-top: 3rem;">
+                <a href="#" class="btn btn-primary">View All Articles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Protection Plans Section -->
+    <section class="section section-white">
+        <div class="container">
+            <h2 class="section-title">Protection Plans</h2>
+            <p class="section-subtitle">Save with bundled protection plans designed for long-term peace of mind</p>
+            
+            <div class="plans-grid">
+                <div class="plan-card">
+                    <div class="plan-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="plan-title">Home Protection</h3>
+                    <p class="plan-description">Year-round interior and exterior defense against common household pests.</p>
+                    <ul class="plan-features">
+                        <li>✓ Quarterly treatments</li>
+                        <li>✓ Interior & exterior protection</li>
+                        <li>✓ Free re-treatments if needed</li>
+                        <li>✓ Priority scheduling</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary btn-block">Learn More</a>
+                </div>
+
+                <div class="plan-card plan-popular">
+                    <div class="plan-badge">Most Popular</div>
+                    <div class="plan-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="plan-title">Yard Enjoyment</h3>
+                    <p class="plan-description">Mosquitoes, ticks, and outdoor pest control for comfortable outdoor living.</p>
+                    <ul class="plan-features">
+                        <li>✓ Monthly mosquito treatments</li>
+                        <li>✓ Tick control included</li>
+                        <li>✓ Pre-event treatments available</li>
+                        <li>✓ Safe for pets & children</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary btn-block">Learn More</a>
+                </div>
+
+                <div class="plan-card">
+                    <div class="plan-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="plan-title">Termite Defense</h3>
+                    <p class="plan-description">Comprehensive monitoring, prevention, and protection against termite damage.</p>
+                    <ul class="plan-features">
+                        <li>✓ Annual inspections</li>
+                        <li>✓ Bait station monitoring</li>
+                        <li>✓ Damage repair warranty</li>
+                        <li>✓ $1M damage guarantee</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary btn-block">Learn More</a>
+                </div>
+            </div>
+
+            <div class="plans-note">
+                <p><strong>Special Offer:</strong> Get 20% off when you bundle two or more protection plans</p>
+                <p class="plans-subtext">All plans include priority service scheduling and free re-treatments between visits</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container cta-content">
+            <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <h2 class="cta-title">Need Same-Day Pest Control?</h2>
+            <p class="cta-description">Our expert technicians are standing by. Call now or schedule your free inspection online.</p>
+            <div class="cta-buttons">
+                <a href="tel:5551234567" class="btn btn-white">Call (555) 123-4567 →</a>
+                <a href="contact.html" class="btn btn-outline">Schedule Online →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                        <div class="logo-text">
+                            <span class="logo-title">SafeGuard</span>
+                            <span class="logo-subtitle">Pest Control</span>
+                        </div>
+                    </div>
+                    <p class="footer-description">Professional, science-backed pest control services protecting homes and businesses across the USA.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-title">Our Services</h3>
+                    <ul class="footer-links">
+                        <li>Ant Control</li>
+                        <li>Cockroach Control</li>
+                        <li>Rodent Control</li>
+                        <li>Spider Control</li>
+                        <li>Termite Control</li>
+                        <li>Mosquito Control</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-title">Contact Us</h3>
+                    <ul class="footer-contact">
+                        <li>📞 (555) 123-4567</li>
+                        <li>✉️ info@safeguardpest.com</li>
+                        <li>📍 123 Main Street<br>Anytown, USA 12345</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 SafeGuard Pest Control. All rights reserved.</p>
+                <p class="footer-credentials">Licensed & Insured | EPA-Approved Products | Family & Pet-Safe Solutions</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
